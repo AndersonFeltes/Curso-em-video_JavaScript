@@ -1,0 +1,29 @@
+DOM
+Document Object Model
+
+Árvore DOM
+window{
+
+location
+document(html)
+history
+
+}
+
+SELECIONANDO
+Por Marca
+getElementByIdName()
+
+por ID
+getElementById()
+
+por Nome
+getElementsByName()
+
+por Classe
+getElementsByClassName()
+
+por Seletor
+querySelector()
+querySelectorAll()
+

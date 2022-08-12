@@ -1,0 +1,11 @@
+Livros:
+Guia de referência da Mozzila
+develop.mozzila.org
+referências
+
+
+
+Guia de referência da Ecma
+Ecmainternational.org
+standards
+ecma 262

@@ -1,0 +1,46 @@
+Identificadores
+*Podem começar com letra, $ ou _
+*Não podem começar com números
+*É possível usar letras ou números
+*É possível usar acentos e símbolos
+*Não podem conter espaços
+*Não podem ser palavras reservadas da linguagem
+
+
+
+typeof == tipos de variaveis/ TYPEOF mostra de qual tipo é a variavel
+
+number
+string
+boolean
+null
+undefined
+object
+function
+
+JavaScript só soma numeros com o + se tiverem valores numericos, se forem String será feita a concatenação
+
+Number.parseInt(n) / converte para um numero inteiro
+Number.ParseFloat(n) / converte para um numero de ponto flutuante
+Number(n) / converte os valores automaticamente para float ou inteiro
+
+String(n) / converte um número para String
+n.toString() / converte um número para String
+
+Formatando Strings
+var s = "JavaScript"
+'Estou estudando s' // não faz interpolação
+"Estou estudando"+s // usa concatenação
+`Estou estudando ${s}` //usa template string
+s.lenght // quantos caracteres a string tem
+s.toUpperCase() // tudo para 'MAIÚSCULAS'
+s.toLowerCase() // tudo para 'minúsculas'
+
+document.write() // escreve no corpo do HTML
+
+Formatando números
+var n1 = 1543.5
+n1.toFixed(2) // define o número de casas decimais
+n1.toLocaleString('pt-BR' , {style: 'currency' , currency:'BRL'}) // converte o valor para a moeda brasileira
+n1.toLocaleString('pt-BR' , {style: 'currency' , currency:'USD'}) // converte o valor para dólar
+n1.toLocaleString('pt-BR' , {style: 'currency' , currency:'EUR'}) // converte o valor para euro

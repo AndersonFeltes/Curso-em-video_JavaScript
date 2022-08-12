@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font:normal 18pt Arial;
+        }
+    </style>
+    <title>Condicionais 03</title>
+</head>
+<body>
+    <h1>Registro de Nacionalidade</h1>
+    Em qual país você nasceu: <input type="text" name="pais" id="pais">
+    <input type="button" value="Registrar" id="registrar">
+    <div id="resultado">
+
+    </div>
+
+    <script>
+        var pais = window.document.querySelector("#pais")//coloca o valor do campo na variavel pais
+        var clicou = window.document.querySelector("#registrar")//seleciona o botao e coloca na variavel clicou
+        var resultado = window.document.querySelector("#resultado")//seleciona a dive para mostrar o resultado e coloca na variavel resultado
+        clicou.addEventListener("click" , clicar)
+
+        function clicar(){
+            if(pais.value=="Brasil" || pais.value=="brasil"){
+                resultado.innerHTML = `<p>Seu país de nascimento é ${pais.value}, você é brasileiro.</p>`
+            }
+            else if(pais.value=="BRASIL"){
+                resultado.innerHTML = `<p>Seu país de nascimento é ${pais.value}, você é brasileiro.</p>`
+            }
+            else{
+                resultado.innerHTML = `<p>Seu país de nascimento é ${pais.value}, você é um estrangeiro.</p>`
+            }
+        }
+    </script>
+</body>
+</html>

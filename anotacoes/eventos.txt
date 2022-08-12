@@ -1,0 +1,7 @@
+mouseenter / mouse entrou no elemento
+mousemove / movendo o mouse no elemento
+mousedown / segurar o click do mouse
+mouseup / soltar o click do mouse
+click / clicar normalmente com o mouse
+mouseout / mover o mouse para fora do elemento
+

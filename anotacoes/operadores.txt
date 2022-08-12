@@ -1,0 +1,54 @@
+Operadores
+
+5 + 2 -> 7
+5 - 2 -> 3
+5 * 2 -> 10
+5 / 2 -> 2.5
+5 % 2 - > 1
+5 ** 2 -> 25
+
+Precedência
+()
+**
+* / %
++ - 
+
+var n = 3
+n=n+4  n+=4
+n=n-5  n-=5
+n=n*4  n*=4
+n=n/2  n/=2
+n=n**2  n**=2
+n=n%5  n%=5
+
+Relacionais
+> maior
+< menor
+>= maior ou igual
+<= menor ou igual
+== igual
+!= diferente
+=== identico(mesmos valores e tipos)
+!== desigual restrito
+
+Lógicos
+! negação
+&& conjunção(E)
+|| disjunção(OU)
+
+exemplo
+a > b && b%2 == 0
+ordem / aritmetocos, relacionais, lógicos
+
+Precedencia
+() ** / ...
+> < >= ...
+!
+&&
+||
+
+Ternário
+:
+?
+
+teste ? true : false

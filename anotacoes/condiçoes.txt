@@ -1,0 +1,41 @@
+condição simples
+    if(condição){
+        true
+    }
+
+condição composta
+    if(condição){
+        true
+    }
+    else{
+        false
+    }
+
+condição aninhada / em forma de ninho
+    if(cond1){
+        bloco1
+    }
+    else{
+        if(cond2){
+
+        }
+        else{
+            bloco3
+        }
+    }
+
+condição multipla
+switch(condição){
+    case valor1:
+        "codigo"
+        break
+    case valor2:
+        "codigo"
+        break
+    case valor3:
+        "codigo"
+        break
+    default:
+        "codigo"
+        break
+}
