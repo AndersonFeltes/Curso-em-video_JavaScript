@@ -2,3 +2,4 @@ num.push(7) //adicona um elemento na ultima posição de um array
 num.length //mostra o tamanho do array
 num.sort() //organiza os elementos do array em ordem crescente
 num.indexOf //procura a posição em que se encontra um determinado valor
+num.splice()// limpa o array
