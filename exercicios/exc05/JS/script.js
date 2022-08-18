@@ -55,7 +55,8 @@ function finalizar(){
 
 function limpar(){
     let input = window.document.querySelector("#num")
-    input.value = 0
+    input.value = ""
+    input.focus()
     let resultado = window.document.querySelector("#resultado")
     resultado.innerHTML = ""
     let divFinalizar = window.document.querySelector("#finalizar")
